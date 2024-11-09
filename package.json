@@ -1,0 +1,40 @@
+{
+  "name": "paynow",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "MPesa Javascript API Client",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha",
+    "lint": "eslint --fix payment/*.js",
+    "prettier": "prettier -w payment/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agostinhodossantos/paymentcenter.git"
+  },
+  "keywords": [
+    "mpesa"
+  ],
+  "author": "Agostinho dos santos",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Agostinhodossantos/paymentcenter/issues"
+  },
+  "homepage": "https://github.com/Agostinhodossantos/paymentcenter#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "husky": "^4.2.5",
+    "mocha": "^10.0.0",
+    "prettier": "^2.1.2",
+    "sinon": "^9.0.2"
+  }
+}
